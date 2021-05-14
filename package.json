@@ -8,7 +8,7 @@
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-hw-10/",
     "deploy": "gh-pages -g dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build --no-optimize"
   },
   "repository": {
     "type": "git",
