@@ -6,7 +6,9 @@
   "homepage": "https://dbeshchuk.github.io/goit-hw-10",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-hw-10/"
+    "build": "parcel build src/*.html --public-url /goit-hw-10/",
+    "deploy": "gh-pages -g dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
